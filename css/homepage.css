@@ -1,5 +1,5 @@
 body {
-  background-color: #50808E;
+  background-color: #9b7cf6;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -19,7 +19,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #84B59F;
+  background-color: #e675ba;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -27,16 +27,32 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #A3C9A8;
+  background-color: #50b4cd;
 }
 
 .special-section {
   font-family: "calibri";
   background-color: rgb(237, 137, 153);
   font-weight: bold;
-  border: dotted 5px rgb(77, 119, 236);
+  border: dotted 5px rgb(81, 45, 165);
 }
 
 .red {
 color: red
+}
+
+h1 {
+  color: #a24f25;
+  font-size: 200%;
+}
+
+h2 {
+  color: #a24f25;
+  font-size: 200%;
+}
+
+p {
+  text-indent: 20px;
+  margin-left: 10px;
+  color: #a24f25;
 }
