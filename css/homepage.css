@@ -1,10 +1,12 @@
 body {
   background-color: #9b7cf6;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'fantasy';
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -28,6 +30,9 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #50b4cd;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .special-section {
@@ -56,3 +61,81 @@ p {
   margin-left: 10px;
   color: #a24f25;
 }
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2ca686;
+}
+
+header {
+  background-color: #8453ae;
+  padding: 10px;
+}
+
+.album-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.album-scroll img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.genres {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.genres button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: rgb(12, 23, 66);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.genres button:hover {
+  background-color: #37dede;
+}
+
+.songs {
+  padding: 20px;
+  background-color: rgb(68, 117, 185);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgb(17, 109, 95);
+}
+
+.songs h2 {
+  text-align: center;
+  color: #511da4;
+}
+
+.songs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.songs li {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f63f6a;
+  border: 1px solid #7d92fb;
+  border-radius: 5px;
+}
+
+.songs p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #351272;
+}
+
