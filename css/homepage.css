@@ -46,6 +46,10 @@ h1 {
 color: red
 }
 
+.center {
+  text-align: center;
+}
+
 h1 {
   color: #a24f25;
   font-size: 200%;
