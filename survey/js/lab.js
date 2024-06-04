@@ -66,19 +66,19 @@ Rory Gershen-Lewis, Joyce Cha, Freddie Torres
         if (genres.includes('rock')) {
             window.location.href = '.Rock-Country/index.html';
         } else if (genres.includes('pop')) {
-            window.location.href = 'Pop-Hip-hop/index.html';
+            window.location.href = '.Pop-Hip-hop/index.html';
         } else if (genres.includes('jazz')) {
-            window.location.href = 'Jazz-Classical/index.html';
+            window.location.href = '.Jazz-Classical/index.html';
         } else if (genres.includes('country')) {
             window.location.href = '.Rock-Country/index.html';
         } else if (genres.includes('classical')) {
-            window.location.href = 'Jazz-Classical/index.html';
+            window.location.href = '.Jazz-Classical/index.html';
         } else if (genres.includes('hip-hop')) {
-            window.location.href = 'Pop-Hip-hop/index.html';
+            window.location.href = '.Pop-Hip-hop/index.html';
         } else if (genres.includes('calm and peaceful')) {
-            window.location.href = 'Jazz-Classical/index.html';
+            window.location.href = '.Jazz-Classical/index.html';
         } else if (genres.includes('up and peppy')) {
-            window.location.href = 'Pop-Hip-hop/index.html';
+            window.location.href = '.Pop-Hip-hop/index.html';
         } else if (genres.includes('something you can bang your head to')) {
             window.location.href = '.Rock-Country/index.html';
         }
@@ -87,6 +87,3 @@ Rory Gershen-Lewis, Joyce Cha, Freddie Torres
     });
 });
 
-//   console.log('Form submitted:', entries);
-//    link;
-//   form.reset();
