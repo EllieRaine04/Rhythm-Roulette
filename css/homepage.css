@@ -34,6 +34,15 @@ h1 {
   margin: 0 auto;
   justify-content: center;
 }
+/* the period in a CSS selector selects an element by class, e.g., class="img-header" */
+.img-header {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #d3bc8d;
+  max-width: 4500px;
+  margin: 10px;
+  justify-content: center;
+}
 
 .special-section {
   font-family: "calibri";
@@ -141,5 +150,35 @@ header {
   margin: 0 0 10px;
   font-size: 18px;
   color: #351272;
+}
+
+/* Chatbot conversation*/
+.bot-text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #775273;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.human-text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #c78ec1;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.chat-section {
+  background-color: rgb(68, 117, 185);
+  border-radius: 10px;
 }
 
