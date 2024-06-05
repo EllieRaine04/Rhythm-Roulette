@@ -2,7 +2,7 @@
 // Author: Elisa Anderson 
 // Date:5-14-24
 
-//Name of this section of codes________________________
+//Scrolling?______________________________________________
 document.addEventListener("DOMContentLoaded", function() {
     const scrollContainer = document.getElementById("album-scroll");
     const scrollLeftButton = document.getElementById("scroll-left");
@@ -45,4 +45,11 @@ $("#make-convo").click(function(){
     $("#output-chatbot").append('<div class="bot-text"><p>' + newText + '</p></div>');
     // add section's formatting (background color) to the conversation
     $(this).parent().addClass("chat-section");
+    //Clear input every time user hit send
+    document.getElementById('insert-text').value = '';
+});
+
+//Survey_______________________________________________________
+$("#survey-button").click(function(){
+    $("#survey-here").append("HOWDY");
 });

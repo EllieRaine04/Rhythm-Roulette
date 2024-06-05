@@ -20,32 +20,8 @@
 					<img src ="img-songs/title-homepage.png" width =350 style="margin:auto;">
 				  </div>
 			</div>
-			
-			<h2>Survey Below; Let us find your new top song</h2>
-<<<<<<< HEAD
-			<button id ="survey/index.html">Take the Survey now and find your new fav!</button>
-				<script>
-				document.getElementById('surveyButton').addEventListener('click', function() {
-					window.location.href = 'survey/index.html';
-				});
 
-			</script>
-=======
-			<a href="survey/index.html">Take the Survey now and find your new fav!</a>
-			<!-- Chatbot -->
-			<h2>Need more help? Chat with our bot!</h2>
-			<div>
-				<div id="output-chatbot"></div>
-				<input type="text" id="insert-text">
-				<button id="make-convo">Send</button>
-			</div>
-<<<<<<< HEAD
->>>>>>> 5bd9d5265c87092885029b0c9a9220febef86b15
-=======
->>>>>>> 5bd9d5265c87092885029b0c9a9220febef86b15
-
-				<div class="assignments major-section">
-
+	<!-- Generate a song based on genre -->
 			<section class="genres">
 				<button href="../Rhythm-Roulette/Rock-Country/">Rock</button>
 				<button>Pop</button>
@@ -53,7 +29,6 @@
 				<button>Classical</button>
 				<button>Country</button>
 				<button>Hip-Hop</button>
-				<!-- Add more genre buttons as needed -->
 			</section>
 
 			<section class="songs">
@@ -166,11 +141,58 @@
 						<audio controls>
 							<source src="img-songs/Valse Delle Vigne.mp3" type="audio/mpeg">
 					</li>
-								</ul>
-				
+				</ul>
 			</section>
-			<nav id="links">
-			</nav>
+				
+			<!-- Survey			 -->
+			<h2>Survey Below; Let us find your new top song</h2>
+			<!-- The survey itself :o -->
+			<div class="survey-container">
+				<h1>Find your new hit song - Rhythm Roulette</h1>
+				<form id="survey-form">
+					<div class="form-group">
+						<label for="favoriteColor">What is your top favorite genre?</label>
+						<select id="favoriteGenre" name="favoriteGenre" required>
+							<option value="rock">Rock</option>
+							<option value="pop">Pop</option>
+							<option value="jazz">Jazz</option>
+							<option value="country">Country</option>
+							<option value="classical">Classical</option>
+							<option value="hip-hop">Hip-Hop</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Any others peak your interest?</label>
+						<label><input type="checkbox" name="genres" value="rock"> Rock</label>
+						<label><input type="checkbox" name="genres" value="pop"> Pop</label>
+						<label><input type="checkbox" name="genres" value="jazz"> Jazz</label>
+						<label><input type="checkbox" name="genres" value="country"> Country</label>
+						<label><input type="checkbox" name="genres" value="classical"> Classical</label>
+						<label><input type="checkbox" name="genres" value="hip-hop"> Hip-hop</label>
+					</div>
+					<div class="form-group">
+						<label>What do you typically look for in your songs? Something:</label>
+						<label><input type="checkbox" name="genres" value="Calm and peaceful"> Calm and peaceful</label>
+						<label><input type="checkbox" name="genres" value="Up and peppy"> Up and peppy</label>
+						<label><input type="checkbox" name="genres" value="Something you can bang you head to"> Something you can bang you head to</label>
+	
+	
+					<div>
+					<button type="submit">Submit</button>
+					<div id="output"></div>
+						<script src="js/lab.js"></script>
+				</form>
+			</div>
+			<button id="survey-button">Take the survey</button>
+
+			<!-- Chatbot -->
+			<h2>Need more help? Chat with our bot!</h2>
+			<div>
+				<div id="output-chatbot"></div>
+				<input type="text" id="insert-text">
+				<button id="make-convo">Send</button>
+				<nav id="links"></nav>
+			</div>
 		</div>
 	</main>
 
