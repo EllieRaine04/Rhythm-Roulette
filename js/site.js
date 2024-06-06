@@ -23,6 +23,25 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+//Generate random songs______________________________________
+// Rock songs
+$("#jazz-button").click(function(){
+    //Generate rand numbers 0 - 2
+    var randNum = Math.floor(Math.random() * 3);
+    console.log(randNum);
+    //Generate rand songs based on number
+    if (randNum == 0){
+        $("#rand-song").html("<a href='https://open.spotify.com/track/2F8bvOLt0gB43do7itzHcH?si=1bd7727d393b458e'>" + "<img src='img-songs/rolling_out.jpg' width=500 height=500>" + "</a>")
+        // var rollinout = new Audio('Rollin out.mp3');
+        // rollinout.play();
+    } else if (randNum == 1){
+        $("#rand-song").html("<a href='https://open.spotify.com/track/6DrPWXPRmH6osy99X58H6K?si=58d7294339104e9e'>" + "<img src='img-songs/wilting.jpg' width=500 height=500>" + "</a>")
+    } else {
+        $("#rand-song").html("<a href='https://open.spotify.com/track/1m3BAsNsQAaSNMD2M6vlKY?si=51315c704e0e419d'>" + "<img src='img-songs/breezin.jpg' width=500 height=500>" + "</a>")
+    }
+})
+
+
 //Chat bot conversation______________________________________
 function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -50,6 +69,36 @@ $("#make-convo").click(function(){
 });
 
 //Survey_______________________________________________________
-$("#survey-button").click(function(){
-    $("#survey-here").append("HOWDY");
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('survey-form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const formData = new FormData(form);
+        
+        const genres = formData.getAll('genres');
+
+        if (genres.includes('rock')) {
+            window.location.href = '.Rock-Country/index.html';
+        } else if (genres.includes('pop')) {
+            window.location.href = '.Pop-Hip-hop/index.html';
+        } else if (genres.includes('jazz')) {
+            window.location.href = '.Jazz-Classical/index.html';
+        } else if (genres.includes('country')) {
+            window.location.href = '.Rock-Country/index.html';
+        } else if (genres.includes('classical')) {
+            window.location.href = '.Jazz-Classical/index.html';
+        } else if (genres.includes('hip-hop')) {
+            window.location.href = '.Pop-Hip-hop/index.html';
+        } else if (genres.includes('calm and peaceful')) {
+            window.location.href = '.Jazz-Classical/index.html';
+        } else if (genres.includes('up and peppy')) {
+            window.location.href = '.Pop-Hip-hop/index.html';
+        } else if (genres.includes('something you can bang your head to')) {
+            window.location.href = '.Rock-Country/index.html';
+        }
+        
+        form.reset();
+    });
 });
+

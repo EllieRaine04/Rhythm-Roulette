@@ -23,15 +23,17 @@
 
 	<!-- Generate a song based on genre -->
 			<section class="genres">
-				<button href="../Rhythm-Roulette/Rock-Country/">Rock</button>
-				<button>Pop</button>
-				<button>Jazz</button>
-				<button>Classical</button>
-				<button>Country</button>
-				<button>Hip-Hop</button>
+				<button id="rock-button">Rock</button>
+				<button id="pop-button">Pop</button>
+				<button id="jazz-button">Jazz</button>
+				<button id="classical-button">Classical</button>
+				<button id="country-button">Country</button>
+				<button id="hiphop-button">Hip-Hop</button>
 			</section>
+			<div id="rand-song" class="center"></div>
 
-			<section class="songs">
+	<!-- Song list -->
+			<div class="songs">
 				<h2>Song List</h2>
 				<ul>
 					
@@ -142,15 +144,15 @@
 							<source src="img-songs/Valse Delle Vigne.mp3" type="audio/mpeg">
 					</li>
 				</ul>
-			</section>
+			</div>
 				
 			<!-- Survey			 -->
 			<h2>Survey Below; Let us find your new top song</h2>
 			<!-- The survey itself :o -->
-			<!-- <div class="survey-container">
-				<h1>Find your new hit song - Rhythm Roulette</h1>
+			<div class="survey-container">
+				<h2>Find your new hit song - Rhythm Roulette</h2>
 				<form id="survey-form">
-					<div class="form-group">
+					<div class="form-group center">
 						<label for="favoriteColor">What is your top favorite genre?</label>
 						<select id="favoriteGenre" name="favoriteGenre" required>
 							<option value="rock">Rock</option>
@@ -175,15 +177,12 @@
 						<label><input type="checkbox" name="genres" value="Calm and peaceful"> Calm and peaceful</label>
 						<label><input type="checkbox" name="genres" value="Up and peppy"> Up and peppy</label>
 						<label><input type="checkbox" name="genres" value="Something you can bang you head to"> Something you can bang you head to</label>
-	
-	
-					<div>
-					<button type="submit">Submit</button>
+					</div>
+					<button id="form-button" type="submit">Submit</button>
 					<div id="output"></div>
 						<script src="js/lab.js"></script>
 				</form>
-			</div> -->
-			<button id="survey-button">Take the survey</button>
+			</div>
 
 			<!-- Chatbot -->
 			<h2>Need more help? Chat with our bot!</h2>
