@@ -13,14 +13,14 @@
 <body>
 	<main id="content">
 		<img src="">
-		<div class="page-header">
+		<div class="page-header" title="by Elisa Anderson, Bao Hy Dang, Rory Gershen-Lewis, Freddie Torres, Joyce Cha, Jasmine Verga">
 			<h1 class="center">Rhythm Roulette</h1>
 		</div>
 
 		<div class="img-header" style="overflow:hidden">
 			<img src ="img-songs/title-homepage.png" width =350 style="margin:auto;" id="page-img">
-			<p><b>About us</b></p>
-			<p>Welcome to Rhythm Roulette, a groundbreaking platform where your musical journey is crafted uniquely for you.</p>
+			<p><h2><b>About us</b></h2></p>
+			<p>Welcome to <b>Rhythm Roulette</b>, a groundbreaking platform where your musical journey is crafted uniquely for you.</p>
 			<p>In a world overwhelmed with endless playlists and overwhelming choices, we asked ourselves a simple yet profound question: "What song should I listen to next?" From this curiosity, our team embarked on a mission to redefine how you discover music. Our process begins with you. By answering a few simple survey questions, you open a window into your musical soul. 
 				We’ve designed an intuitive, JavaScript-powered survey that captures your preferences, moods, and genres.</p>
 			<p>This interactive experience allows us to understand your musical landscape deeply. 
@@ -30,19 +30,22 @@
 
 	<!-- Generate a song based on genre -->
 		<div class="minor-section">
-			<section class="genres">
-				<button id="rock-button">Rock</button>
-				<button id="pop-button">Pop</button>
-				<button id="jazz-button">Jazz</button>
-				<button id="classical-button">Classical</button>
-				<button id="country-button">Country</button>
-				<button id="hiphop-button">Hip-Hop</button>
-			</section>
-			<div id="rand-song" class="center">
-			</div>
+			<h2 class="center">Song Generator</h2>
+				<section class="genres">
+					<button id="rock-button">Rock</button>
+					<button id="pop-button">Pop</button>
+					<button id="jazz-button">Jazz</button>
+					<button id="classical-button">Classical</button>
+					<button id="country-button">Country</button>
+					<button id="hiphop-button">Hip-Hop</button>
+				</section>
+				<div id="rand-song" class="center">
+				</div>
+		</div>
 
 	<!-- Song list -->
-			<div class="songs">
+		<div class="minor-section">
+			<div class="songs center">
 				<h2>Song List</h2>
 				<ul>
 					
@@ -222,6 +225,131 @@
 			</div>
 		</div>
 	</main>
+
+	<!-- Pop up kitten                                                 -->
+	<!-- this script is provided by https://www.javascriptfreecode.com coded by: Kerixa Inc. -->
+	<style>
+
+		.head {
+		position: fixed;
+		animation: 50s headpopping infinite;
+		top: 0;
+		left: 0;
+		transform: translateY(-50vh) rotate(180deg);
+		}
+
+		@keyframes headpopping {
+		3%, 8% {
+			transform: translateY(-50vh) rotate(180deg);
+		}
+		6% {
+			transform: translateY(0) rotate(180deg);
+		}
+		10% {
+			transform: translateY(-50vh) translateX(110vw) rotate(270deg);
+		}
+		12%, 20% {
+			transform: translateY(50vh) translateX(110vw) rotate(270deg);
+		}
+		15% {
+			transform: translateY(50vh) translateX(80vw) rotate(270deg);
+		}
+		22% {
+			transform: translateY(50vh) translateX(110vw) rotate(0);
+		}
+		24% {
+			transform: translateY(110vh) translateX(110vw) rotate(0);
+		}
+		26%, 30% {
+			transform: translateY(110vh) translateX(70vw) rotate(0);
+		}
+		28% {
+			transform: translateY(80vh) translateX(70vw) rotate(0);
+		}
+		32% {
+			transform: translateY(110vh) translateX(70vw) rotate(90deg);
+		}
+		34% {
+			transform: translateY(110vh) translateX(-50vw) rotate(90deg);
+		}
+		36%, 40% {
+			transform: translateY(30vh) translateX(-50vw) rotate(90deg);
+		}
+		38% {
+			transform: translateY(30vh) translateX(0) rotate(90deg);
+		}
+		42% {
+			transform: translateY(-45vh) translateX(-50vw) rotate(230deg);
+		}
+		44%, 48% {
+			transform: translateY(-45vh) translateX(100vw) rotate(230deg);
+		}
+		46% {
+			transform: translateY(-3vh) translateX(85vw) rotate(230deg);
+		}
+		50% {
+			transform: translateY(-45vh) translateX(100vw) rotate(180deg);
+		}
+		52%, 56% {
+			transform: translateY(-45vh) translateX(50vw) rotate(180deg);
+		}
+		54% {
+			transform: translateY(0) translateX(50vw) rotate(180deg);
+		}
+		58% {
+			transform: translateY(-45vh) translateX(-50vw) rotate(0);
+		}
+		60% {
+			transform: translateY(115vh) translateX(-50vw) rotate(0);
+		}
+		62%, 65% {
+			transform: translateY(75vh) translateX(0) rotate(0);
+		}
+		72% {
+			transform: translateY(85vh) translateX(53vw) rotate(0);
+		}
+		74% {
+			transform: translateY(110vh) translateX(53vw) rotate(0);
+		}
+		76% {
+			transform: translateY(110vh) translateX(53vw) rotate(90deg);
+		}
+		78% {
+			transform: translateY(110vh) translateX(-50vw) rotate(90deg);
+		}
+		80%, 88% {
+			transform: translateY(15vh) translateX(-50vw) rotate(90deg);
+		}
+		82% {
+			transform: translateY(15vh) translateX(0) rotate(90deg);
+		}
+		83% {
+			transform: translateY(15vh) translateX(0) rotate(98deg);
+		}
+		84% {
+			transform: translateY(15vh) translateX(0) rotate(83deg);
+		}
+		85% {
+			transform: translateY(15vh) translateX(0) rotate(92deg);
+		}
+		86% {
+			transform: translateY(15vh) translateX(0) rotate(87deg);
+		}
+		90% {
+			transform: translateY(15vh) translateX(-50vw) rotate(180deg);
+		}
+		92% {
+			transform: translateY(-50vh) translateX(-50vw) rotate(180deg);
+		}
+		94% {
+			transform: translateY(-50vh) translateX(0) rotate(180deg);
+		}
+		}
+
+	</style>
+	<img class="head" src="https://www.javascriptfreecode.com/files/chris.png" alt="Spider-Man" />
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><a target='_blank' href='https://www.javascriptfreecode.com' style='font-size: 8pt; text-decoration: none'>JavaScript Best Codes</a>                                                
+	<!-- ______________________________________________________________________                                            -->
 
 </body>
 

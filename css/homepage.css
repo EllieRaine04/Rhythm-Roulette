@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   color: #a24f25;
-  font-size: 150%;
+  font-size: 175%;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -73,6 +73,7 @@ h2 {
 
 #page-img {
   float: left;
+  padding-right: 10px;
 }
 
 div .main {
