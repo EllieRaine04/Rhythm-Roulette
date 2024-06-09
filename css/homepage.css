@@ -292,3 +292,14 @@ input[type="checkbox"] {
   float: right;
 }
 
+/* Ads2 */
+
+.ad-left-2 {
+  float: left;
+  position: fixed;
+}
+
+.ad-right-2 {
+  float: right;
+  position: fixed;
+}
