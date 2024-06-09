@@ -40,15 +40,15 @@ $("#jazz-button").click(function(){
         )
     } else if (randNum == 2){
         $("#rand-song").html("<h2>" + "Wave - Antonio Carlos Jobim" + "</h2>" + "<a href='https://open.spotify.com/track/2hXBS8q9rGMovfG1S8FB4F' target=”_blank”>" + "<img src='img-songs/wav- ACJ.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Antonio Carlos Jobim - Wave  1967.mp3'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 3){
         $("#rand-song").html("<h2>" + "Crystal Silence - Chick Correa" + "</h2>" + "<a href='https://open.spotify.com/track/5F8rPLt2c52p0SK7kiH26b' target=”_blank”>" + "<img src='img-songs/chick correa - crystal silence.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Chick Corea - Crystal Silence.mp3'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 4){
         $("#rand-song").html("<h2>" + "Joy Spring - Clifford Brown" + "</h2>" + "<a href='https://open.spotify.com/track/0sQ9ee2jJNTQgjy55Pse5H' target=”_blank”>" + "<img src='img-songs/clifford brown - joy spring.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Clifford Brown - Joy Spring.mp3'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Breezin' - George Benson" + "</h2>" + "<a href='https://open.spotify.com/track/1m3BAsNsQAaSNMD2M6vlKY?si=51315c704e0e419d' target=”_blank”>" + "<img src='img-songs/breezin.jpg' width=500 height=500>" + "</a>"
@@ -94,19 +94,19 @@ $("#rock-button").click(function(){
         )
     } else if (randNum == 2){
         $("#rand-song").html("<h2>" + "The Good Thing - Talking Heads" + "</h2>" + "<a href='https://open.spotify.com/track/0DO7AUeYAx9oUG7gyrbdTD' target=”_blank”>" + "<img src='img-songs/talking-headings.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/The Good Thing (2005 Remaster).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 3){
         $("#rand-song").html("<h2>" + "Love Buzz - Nirvana" + "</h2>" + "<a href='https://open.spotify.com/track/3FUsMXBxA4V7eUwQ7B0HQO' target=”_blank”>" + "<img src='img-songs/nirvana - love buz.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Love Buzz (Remastered).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 4){
         $("#rand-song").html("<h2>" + "Coffee and Tv - Blur" + "</h2>" + "<a href='https://open.spotify.com/track/5eSllZgRWCIJsDTAqFRwQw' target=”_blank”>" + "<img src='img-songs/blur- coffee and tv.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Coffee & TV.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 5){
         $("#rand-song").html("<h2>" + " South Bound Saurez - Led Zeppelin" + "</h2>" + "<a href='https://open.spotify.com/track/23FeHDJaegIZF0dpH4x1Tf' target=”_blank”>" + "<img src='img-songs/led zepplin- SBS.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/South Bound Saurez (1993 Remaster).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Dark Matter - Pearl Jam" + "</h2>" + "<a href='https://open.spotify.com/track/0S4VR8n0KBkE6DxrjArswJ?si=9a3fafd45d2f4333' target=”_blank”>" + "<img src='img-songs/dark_matter.jpg' width=500 height=500>" + "</a>"
@@ -153,15 +153,15 @@ $("#country-button").click(function(){
         )
     } else if (randNum == 2){
         $("#rand-song").html("<h2>" + "Little Green Apples - Roger Miller" + "</h2>" + "<a href='https://open.spotify.com/track/1HjGctfkZjMHOEMJe9I755' target=”_blank”>" + "<img src='img-songs/roger miller - little green apples.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Little Green Apples.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 3){
         $("#rand-song").html("<h2>" + "Big Iron - Marty Robbins" + "</h2>" + "<a href='https://open.spotify.com/track/0AQquaENerGps8BQmbPw14' target=”_blank”>" + "<img src='img-songs/Big Iron - marty robins.jpg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Marty Robbins - Big Iron (Audio).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 4){
         $("#rand-song").html("<h2>" + "Are You Leaving for the Counrty - Karen Dalton" + "</h2>" + "<a href='https://open.spotify.com/track/5lNnEsklGnGeU50sWQ87T9' target=”_blank”>" + "<img src='img-songs/karen dalton - are you leaving for the country.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Are You Leaving for the Country.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Messed Up As Me - Keith Urban" + "</h2>" + "<a href='https://open.spotify.com/track/4Znwf3U6xJsQrj0UveLpOx?si=cc1c2c5f68124fb3' target=”_blank”>" + "<img src='img-songs/messed_up_as_me.jpg' width=500 height=500>" + "</a>"
@@ -186,15 +186,15 @@ $("#hiphop-button").click(function(){
         )
     } else if (randNum == 2){
         $("#rand-song").html("<h2>" + "Love it or Hate it - The Game (feat. 50 Cent)" + "</h2>" + "<a href='https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R' target=”_blank”>" + "<img src='img-songs/The Game- hate it or love it.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/The Game, 50 Cent - Hate It Or Love It (Official Music Video).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 3){
         $("#rand-song").html("<h2>" + "Girl - Standing on the Corner" + "</h2>" + "<a href='https://open.spotify.com/track/5FtjaVLEeDfFb9t23hqizi' target=”_blank”>" + "<img src='img-songs/Girl - Standing on the Corner.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/STANDING ON THE CORNER - Girl.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else if (randNum == 4){
         $("#rand-song").html("<h2>" + "Da Art of Story Tellin' (Pt.1) - Outkast" + "</h2>" + "<a href='https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2' target=”_blank”>" + "<img src='img-songs/Outkast - art of story tellin.jpeg' width=500 height=500>" + "</a>"
-                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+                + "<div>" + "<audio controls>" + "<source src='img-songs/songs/Outkast -  Da Art of Storytellin'  Part 1  (HQ).mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Magnolia -  Playboi Carti" + "</h2>" + "<a href='https://open.spotify.com/track/1e1JKLEDKP7hEQzJfNAgPl?si=f2f5f5174ef346f6' target=”_blank”>" + "<img src='img-songs/magnolia.jpg' width=500 height=500>" + "</a>"
