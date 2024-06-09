@@ -139,8 +139,8 @@ $("#pop-button").click(function(){
 
 // Country songs
 $("#country-button").click(function(){
-    //Generate rand numbers 0 - 2
-    var randNum = Math.floor(Math.random() * 3);
+    //Generate rand numbers 0 - 5
+    var randNum = Math.floor(Math.random() * 6);
     console.log(randNum);
     //Generate rand songs based on number
     if (randNum == 0){
@@ -151,6 +151,18 @@ $("#country-button").click(function(){
         $("#rand-song").html("<h2>" + "A Bar Song (Tipsy) - Shaboozey" + "</h2>" + "<a href='https://open.spotify.com/track/2FQrifJ1N335Ljm3TjTVVf?si=123ac5a885084f03' target=”_blank”>" + "<img src='img-songs/a_bar_song.jpg' width=500 height=500>" + "</a>"
                 + "<div>" + "<audio controls>" + "<source src='img-songs/Shaboozey  A Bar Song Tipsy Official Visualizer.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
+    } else if (randNum == 2){
+        $("#rand-song").html("<h2>" + "Little Green Apples - Roger Miller" + "</h2>" + "<a href='https://open.spotify.com/track/1HjGctfkZjMHOEMJe9I755' target=”_blank”>" + "<img src='img-songs/roger miller - little green apples.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 3){
+        $("#rand-song").html("<h2>" + "Big Iron - Marty Robbins" + "</h2>" + "<a href='https://open.spotify.com/track/0AQquaENerGps8BQmbPw14' target=”_blank”>" + "<img src='img-songs/Big Iron - marty robins.jpg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 4){
+        $("#rand-song").html("<h2>" + "Are You Leaving for the Counrty - Karen Dalton" + "</h2>" + "<a href='https://open.spotify.com/track/5lNnEsklGnGeU50sWQ87T9' target=”_blank”>" + "<img src='img-songs/karen dalton - are you leaving for the country.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
     } else {
         $("#rand-song").html("<h2>" + "Messed Up As Me - Keith Urban" + "</h2>" + "<a href='https://open.spotify.com/track/4Znwf3U6xJsQrj0UveLpOx?si=cc1c2c5f68124fb3' target=”_blank”>" + "<img src='img-songs/messed_up_as_me.jpg' width=500 height=500>" + "</a>"
                 + "<div>" + "<audio controls>" + "<source src='img-songs/Keith Urban  Messed Up As Me Official Audio.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
@@ -160,8 +172,8 @@ $("#country-button").click(function(){
 
 // Hip-hop songs
 $("#hiphop-button").click(function(){
-    //Generate rand numbers 0 - 2
-    var randNum = Math.floor(Math.random() * 3);
+    //Generate rand numbers 0 - 5
+    var randNum = Math.floor(Math.random() * 6);
     console.log(randNum);
     //Generate rand songs based on number
     if (randNum == 0){
@@ -171,6 +183,18 @@ $("#hiphop-button").click(function(){
     } else if (randNum == 1){
         $("#rand-song").html("<h2>" + "Blueberry Faygo - Lil Mosey" + "</h2>" + "<a href='https://open.spotify.com/track/6wJYhPfqk3KGhHRG76WzOh?si=f0d3c004f38047a1' target=”_blank”>" + "<img src='img-songs/blueberry_faygo.jpg' width=500 height=500>" + "</a>"
                 + "<div>" + "<audio controls>" + "<source src='img-songs/Lil Mosey  Blueberry Faygo Directed by Cole Bennett.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 2){
+        $("#rand-song").html("<h2>" + "Love it or Hate it - The Game (feat. 50 Cent)" + "</h2>" + "<a href='https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R' target=”_blank”>" + "<img src='img-songs/The Game- hate it or love it.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 3){
+        $("#rand-song").html("<h2>" + "Girl - Standing on the Corner" + "</h2>" + "<a href='https://open.spotify.com/track/5FtjaVLEeDfFb9t23hqizi' target=”_blank”>" + "<img src='img-songs/Girl - Standing on the Corner.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 4){
+        $("#rand-song").html("<h2>" + "Da Art of Story Tellin' (Pt.1) - Outkast" + "</h2>" + "<a href='https://open.spotify.com/track/1KQymTxNJfWk6vCD5ywKW2' target=”_blank”>" + "<img src='img-songs/Outkast - art of story tellin.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Magnolia -  Playboi Carti" + "</h2>" + "<a href='https://open.spotify.com/track/1e1JKLEDKP7hEQzJfNAgPl?si=f2f5f5174ef346f6' target=”_blank”>" + "<img src='img-songs/magnolia.jpg' width=500 height=500>" + "</a>"
