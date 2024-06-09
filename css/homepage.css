@@ -277,3 +277,14 @@ input[type="checkbox"] {
   border-radius: 10px;
   margin: 0 auto;
 }
+
+/* Ads */
+
+.ad-left {
+  float: left;
+}
+
+.ad-right {
+  float: right;
+}
+
