@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
 //Generate random songs______________________________________
 // Jazz songs
 $("#jazz-button").click(function(){
-    //Generate rand numbers 0 - 2
-    var randNum = Math.floor(Math.random() * 3);
+    //Generate rand numbers 0 - 5
+    var randNum = Math.floor(Math.random() * 6);
     console.log(randNum);
     //Generate rand songs based on number
     if (randNum == 0){
@@ -37,6 +37,18 @@ $("#jazz-button").click(function(){
     } else if (randNum == 1){
         $("#rand-song").html("<h2>" + "Wilting - Glass Trio" + "</h2>" + "<a href='https://open.spotify.com/track/6DrPWXPRmH6osy99X58H6K?si=58d7294339104e9e' target=”_blank”>" + "<img src='img-songs/wilting.jpg' width=500 height=500>" + "</a>"
                 + "<div>" + "<audio controls>" + "<source src='img-songs/Wilting.mp3'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 2){
+        $("#rand-song").html("<h2>" + "Wave - Antonio Carlos Jobim" + "</h2>" + "<a href='https://open.spotify.com/track/2hXBS8q9rGMovfG1S8FB4F' target=”_blank”>" + "<img src='img-songs/wav- ACJ.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 3){
+        $("#rand-song").html("<h2>" + "Crystal Silence - Chick Correa" + "</h2>" + "<a href='https://open.spotify.com/track/5F8rPLt2c52p0SK7kiH26b' target=”_blank”>" + "<img src='img-songs/chick correa - crystal silence.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 4){
+        $("#rand-song").html("<h2>" + "Joy Spring - Clifford Brown" + "</h2>" + "<a href='https://open.spotify.com/track/0sQ9ee2jJNTQgjy55Pse5H' target=”_blank”>" + "<img src='img-songs/clifford brown - joy spring.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src=''>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Breezin' - George Benson" + "</h2>" + "<a href='https://open.spotify.com/track/1m3BAsNsQAaSNMD2M6vlKY?si=51315c704e0e419d' target=”_blank”>" + "<img src='img-songs/breezin.jpg' width=500 height=500>" + "</a>"
@@ -68,8 +80,8 @@ $("#classical-button").click(function(){
 
 // Rock songs
 $("#rock-button").click(function(){
-    //Generate rand numbers 0 - 2
-    var randNum = Math.floor(Math.random() * 3);
+    //Generate rand numbers 0 - 6
+    var randNum = Math.floor(Math.random() * 7);
     console.log(randNum);
     //Generate rand songs based on number
     if (randNum == 0){
@@ -79,6 +91,22 @@ $("#rock-button").click(function(){
     } else if (randNum == 1){
         $("#rand-song").html("<h2>" + "Paint It, Black - The Rolling Stones" + "</h2>" + "<a href='https://open.spotify.com/track/63T7DJ1AFDD6Bn8VzG6JE8?si=e95f10278bc9459a' target=”_blank”>" + "<img src='img-songs/paint_it_black.jpg' width=500 height=500>" + "</a>"
                 + "<div>" + "<audio controls>" + "<source src='img-songs/The Rolling Stones  Paint It Black Official Lyric Video.mp3' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 2){
+        $("#rand-song").html("<h2>" + "The Good Thing - Talking Heads" + "</h2>" + "<a href='https://open.spotify.com/track/0DO7AUeYAx9oUG7gyrbdTD' target=”_blank”>" + "<img src='img-songs/talking-headings.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 3){
+        $("#rand-song").html("<h2>" + "Love Buzz - Nirvana" + "</h2>" + "<a href='https://open.spotify.com/track/3FUsMXBxA4V7eUwQ7B0HQO' target=”_blank”>" + "<img src='img-songs/nirvana - love buz.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 4){
+        $("#rand-song").html("<h2>" + "Coffee and Tv - Blur" + "</h2>" + "<a href='https://open.spotify.com/track/5eSllZgRWCIJsDTAqFRwQw' target=”_blank”>" + "<img src='img-songs/blur- coffee and tv.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
+        )
+    } else if (randNum == 5){
+        $("#rand-song").html("<h2>" + " South Bound Saurez - Led Zeppelin" + "</h2>" + "<a href='https://open.spotify.com/track/23FeHDJaegIZF0dpH4x1Tf' target=”_blank”>" + "<img src='img-songs/led zepplin- SBS.jpeg' width=500 height=500>" + "</a>"
+                + "<div>" + "<audio controls>" + "<source src='123456789' type='audio/mpeg'>" + "</audio>" + "</div>"
         )
     } else {
         $("#rand-song").html("<h2>" + "Dark Matter - Pearl Jam" + "</h2>" + "<a href='https://open.spotify.com/track/0S4VR8n0KBkE6DxrjArswJ?si=9a3fafd45d2f4333' target=”_blank”>" + "<img src='img-songs/dark_matter.jpg' width=500 height=500>" + "</a>"
